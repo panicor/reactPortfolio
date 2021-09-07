@@ -1,0 +1,61 @@
+
+
+footer {
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: goldenrod !important;
+    width: 75%;
+}
+
+.icon:hover {
+    color: khaki !important;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

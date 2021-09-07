@@ -1,0 +1,48 @@
+
+.nav-bar {
+    background-color: blanchedalmond;
+}
+
+.nav-brand {
+    color: black !important;
+    font-size: 1.75rem !important;
+}
+
+.nav-brand:hover {
+    color:gray !important;
+}
+
+.nav-link-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    margin-right: 20px;
+    text-decoration: none !important;
+    color: black;
+    font-size: 1.1rem !important;
+}
+
+.nav-links:hover {
+    background-color:gray;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 845px) {
+    .nav-link-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-items {
+        margin: auto;
+    }
+
+    .nav-links {
+        font-size: 1rem !important;
+    }
+  }
