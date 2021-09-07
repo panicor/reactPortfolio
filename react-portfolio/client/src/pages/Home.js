@@ -1,66 +1,60 @@
 import React from "react";
 import "./Home.css";
-// import parksPagesImg from "../Assets/img/Parks&Pages.png";
-// import catQuizImg from "../Assets/img/CatQuiz.png";
-// import inMarketHomeImg from "../Assets/img/InMarket.png";
-// import weatherDashImg from "../Assets/img/weatherDash.png";
-
+import weatherpic from "../assets/weatherpic.png";
+import notepic from "../assets/notetaker.png";
+import parkspic from "../assets/parksandpages.png";
+import employeepic from "../assets/employeepic.png";
 
 function Projects() {
-    return (
-        <div className="container">
-            <div className="second" id="work">
-          <h2 className="headers">Work</h2>
-          <div className="array">
+  return (
+    <div className="container">
+      <div className="second" id="work">
+        <div className="worksize">
+        <h2 className="headers">Work</h2>
+        </div>
+        <div className="array">
+         
+          <div class="row">
             <div className="bigpic">
-                <a href="https://panicor.github.io/weatherDashboard/">
-            <img  src="assets/weatherpic.png" alt="work picture1"/>
-              </a> 
-              <div>
-                Weather Dashboard
-              </div>
+              <a href="https://panicor.github.io/weatherDashboard/">
+                <img src={weatherpic} alt="work picture1" />
+              </a>
+              <div className="text">Weather Dashboard</div>
             </div>
 
-             {/* <figure>
-              <a href="https://rlaquea.github.io/project-1/"> */}
-               {/* <img src="assets/parksandpages.png" alt="header picture2"/>
-            </a>
-            <figcaption>
-              Parks & Pages
-            </figcaption>
-          </figure>
+            <div className="bigpic">
+              <a href="https://github.com/RLAQUEA/Parks-and-Pages">
+                <img
+                  src={parkspic}
+                  alt="work picture2"
+                />
+              </a>
+              <div className="text">Parks & Pages</div>
+            </div>
+          </div>
 
-            <figure>
-              <a href="https://panicor.github.io/codeQuiz/">
-              <img src="assets/codequiz.png" alt="header picture3"/>
+          <div class="row">
+          <div className="bigpic">
+            <a href="https://panicor.github.io/noteTaker/">
+              <img src={notepic} alt="work picture3" />
             </a>
-            <figcaption>
-              Code Quiz
-            </figcaption>
-          </figure>
+            <div className="text" >Note Taker</div>
+          </div>
 
-          <figure>
-            <a href="https://panicor.github.io/workDayScheduler/">
-            <img src="assets/workscheduler.png" alt="header picture4"/> 
-          </a> 
-          <figcaption>
-            Work Day Scheduler
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="https://panicor.github.io/passwordGenerator/">
-          <img src="assets/passwordgen.png" alt="header picture5"/> 
-        </a> 
-        <figcaption>
-          Password Generator
-        </figcaption>
-      </figure>
-          </article>*/}
-          
+          <div className="bigpic">
+            <a href="https://panicor.github.io/teamProfileGenerator/">
+              <img
+                src={employeepic}
+                alt="work picture4"
+              />
+            </a>
+            <div className="text">Employee Tracker</div>
+          </div>
+        </div>
       </div>
-        </div> 
-        </div> 
-    );
+      </div>
+    </div>
+  );
 }
 
 export default Projects;

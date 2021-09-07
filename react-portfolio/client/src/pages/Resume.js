@@ -6,7 +6,7 @@ import "./Resume.css";
 function Resume () {
   return (
     <div className="height">
-    <object type="application/pdf"
+    <object className="objHeight" type="application/pdf"
     data={resumePDF}
     >
 </object>

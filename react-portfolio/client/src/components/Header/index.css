@@ -19,7 +19,7 @@
 
 .nav-links {
     margin-right: 20px;
-    text-decoration: none !important;
+    text-decoration: underline !important;
     color: black;
     font-size: 1.1rem !important;
 }

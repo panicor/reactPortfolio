@@ -1,18 +1,17 @@
 import React from "react";
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Contact.css";
 
 function Contact () {
   return (
-    <div className="container">
-    <div className="row">
-      <div className="col-sm-12 col-md-8">
+    <div className="contact">
+    <div className="rowrow">
+      <div className="col-sm-12 col-md-8 mt-5">
         <form
           action="mailto:rachelapanico@gmail.com"
           method="POST"
           name="myForm"
-          className="mb-5 mt-5"
         >
-          <div class="form-group mb-3">
+          <div>
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -23,13 +22,13 @@ function Contact () {
               required
             />
           </div>
-          <div class="form-group mb-3">
+          <div >
             <label htmlFor="emailAddress">Email address:</label>
             <input
               type="email"
               class="form-control"
               id="emailAddress"
-              placeholder="name@example.com"
+              placeholder="email@example.com"
               name="email"
               required
             />
@@ -45,7 +44,7 @@ function Contact () {
             ></textarea>
           </div>
           <button
-            className="btn btn-primary mt-3"
+          
             type="submit"
             value="Submit"
           >
