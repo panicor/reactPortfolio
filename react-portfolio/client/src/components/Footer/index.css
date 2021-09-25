@@ -1,15 +1,16 @@
 
+.footercontainer {
+    position: relative;
+}
 
 footer {
     background-color: blanchedalmond;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 5rem;
-
+    bottom:0;
 }
 
 .links {

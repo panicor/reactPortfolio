@@ -8,6 +8,7 @@ import employeepic from "../assets/employeepic.png";
 function Projects() {
   return (
     <div className="container">
+      
       <div className="second" id="work">
         <div className="worksize">
           <h2 className="headers">About Me</h2>
@@ -70,6 +71,18 @@ function Projects() {
           </div>
         </div>
       </div>
+
+      <div className="second" id="work">
+        <div className="worksize">
+          <h2 className="headers">Technologies</h2>
+        </div>
+        <div className="array">
+          <p>
+            HTML5 | CSS3 | JavaScript | Node.js | JQuery | Express.js | MongoDB | MySQL2
+          </p>
+        </div>
+      </div>
+
     </div>
   );
 }

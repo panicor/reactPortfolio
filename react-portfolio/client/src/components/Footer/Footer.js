@@ -6,8 +6,8 @@ import "./index.css"
 
 const Footer = () => {
     return (
-      <footer >
-     
+      <div className="footercontainer">
+      <footer>
 
           <div className="links">
             <a className="icon-link"
@@ -47,6 +47,7 @@ const Footer = () => {
           </ul>
       
       </footer>
+      </div>
     );
 }
 
