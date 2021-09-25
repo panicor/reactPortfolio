@@ -29,4 +29,7 @@
   ## Questions
   [GitHub: panicor](https://github.com/panicor)
 
+  [Deployed portfolio](https://panicor.github.io/reactPortfolio/)
+
   rachelapanico@gmail.com
+
