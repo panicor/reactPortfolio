@@ -1,6 +1,9 @@
 .container{
   display: flex;
   flex-direction: column;
+  background-color: rgb(255, 208, 146);
+  width: 100vw;
+  padding: 0;
 }
 
 .second {
@@ -32,7 +35,8 @@
 .row {
   display: flex;
   flex-direction: row;
-
+  align-items: center;
+    justify-content: center;
 }
 
 img {
@@ -59,4 +63,14 @@ img {
   align-items: center;
   height: 80%;
   width: 40%;
+}
+
+.picpart{
+  display: flex;
+  flex-direction: column;
+}
+
+.textpart{
+  display: flex;
+  flex-direction: column;
 }

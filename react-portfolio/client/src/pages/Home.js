@@ -29,14 +29,17 @@ function Projects() {
           <h2 className="headers">Work</h2>
         </div>
         <div className="array">
-          <div class="row">
+          <div className="row">
             <div className="bigpic">
+              <div className="picpart">
               <a href="https://panicor.github.io/weatherDashboard/">
                 <img src={weatherpic} alt="work picture1" />
               </a>
+              </div>
+              <div className="textpart">
               <div className="text">Weather Dashboard</div>
               <p className="undertext">Third-party weather APIs were used to fetch weather data and display it.Use of multiple dynamic URLs to fetch the coordinates of the input cities was needed as well.</p>
-            
+            </div>
             </div>
 
             <div className="bigpic">
@@ -48,7 +51,7 @@ function Projects() {
             </div>
           </div>
 
-          <div class="row">
+          <div className="row">
             <div className="bigpic">
               <a href="https://panicor.github.io/noteTaker/">
                 <img src={notepic} alt="work picture3" />
