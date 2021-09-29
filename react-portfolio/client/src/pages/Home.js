@@ -4,6 +4,7 @@ import weatherpic from "../assets/weatherpic.png";
 import notepic from "../assets/notetaker.png";
 import parkspic from "../assets/parksandpages.png";
 import employeepic from "../assets/employeepic.png";
+import profilepic from "../assets/profilepic.jpg";
 
 function Projects() {
   return (
@@ -13,8 +14,8 @@ function Projects() {
         <div className="worksize">
           <h2 className="headers">About Me</h2>
         </div>
-        <div className="array">
-          <p>
+        <div className="array1">
+          <p className="aboutme">
             Software engineer with a certificate from UCF’s Web Development
             Bootcamp and leveraging a B.S. in Cell and Molecular Biology. The
             combination of applied interpersonal skills and analytical thinking
@@ -22,6 +23,9 @@ function Projects() {
             problem-solver that is ready to take on the challenges of the
             fast-paced workday.
           </p>
+          <div className="profilepicture">
+          <img src={profilepic} alt="profile" />
+        </div>
         </div>
       </div>
 

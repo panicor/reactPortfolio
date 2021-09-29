@@ -1,15 +1,15 @@
 
 .nav-bar {
-    background-color: blanchedalmond;
+    background-color: #0081a7;
 }
 
 .nav-brand {
-    color: black !important;
+    color: #fdfcdc;
     font-size: 1.75rem !important;
 }
 
 .nav-brand:hover {
-    color:gray !important;
+    color: #fed9b7;
 }
 
 .nav-link-group {
@@ -20,12 +20,12 @@
 .nav-links {
     margin-right: 20px;
     text-decoration: underline !important;
-    color: black;
+    color: fdfcdc;
     font-size: 1.1rem !important;
 }
 
 .nav-links:hover {
-    background-color:gray;
+    background-color: #fed9b7;
     color: black;
     padding: 5px 5px 5px 5px;
     border-radius: 5px;

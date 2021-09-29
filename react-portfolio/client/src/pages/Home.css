@@ -1,12 +1,11 @@
 body{
-  background-color: rgb(255, 208, 146);
+  background-color: #fdfcdc;
   width: 100vw;
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 208, 146);
   width: 100vw;
   padding: 0;
 }
@@ -29,10 +28,19 @@ body{
 }
 
 .array img:hover {
-  filter: sepia(50%);
+  filter: grayscale(100%);
+}
+
+.array1 {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  width: 100%;
 }
 
 .array {
+  display: flex;
+  flex-direction: column;
   padding: 2%;
   width: 100%;
 }
@@ -41,7 +49,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-    justify-content: center;
+  justify-content: center;
 }
 
 img {
@@ -78,4 +86,14 @@ img {
 .textpart{
   display: flex;
   flex-direction: column;
+}
+
+.profilepicture {
+  height: 30%;
+  width: 30%;
+}
+
+.aboutme {
+  width: 75%;
+  line-height: 300%;
 }
