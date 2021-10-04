@@ -24,7 +24,7 @@ function Projects() {
             fast-paced workday.
           </p>
           <div className="profilepicture">
-          <img src={profilepic} alt="profile" />
+          <img className="image" src={profilepic} alt="profile" />
         </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ function Projects() {
             <div className="bigpic">
               <div className="picpart">
               <a href="https://panicor.github.io/weatherDashboard/">
-                <img src={weatherpic} alt="work picture1" />
+                <img className="image" src={weatherpic} alt="work picture1" />
               </a>
               </div>
               <div className="textpart">
@@ -49,7 +49,7 @@ function Projects() {
 
             <div className="bigpic">
               <a href="https://github.com/RLAQUEA/Parks-and-Pages">
-                <img src={parkspic} alt="work picture2" />
+                <img className="image" src={parkspic} alt="work picture2" />
               </a>
               <div className="text">Parks & Pages</div>
               <p className="undertext">A search tool for the avid hiker and reader. The user can search for their state, and a list of parks and a map showing the park locations shows up. The Google Books API was used to show book results that are related to the park.</p>
@@ -59,7 +59,7 @@ function Projects() {
           <div className="row">
             <div className="bigpic">
               <a href="https://panicor.github.io/noteTaker/">
-                <img src={notepic} alt="work picture3" />
+                <img className="image" src={notepic} alt="work picture3" />
               </a>
               <div className="text">Note Taker</div>
               <p className="undertext">This project uses express.js and node.js to create an intuitive app that adds and deletes notes from a list.</p>
@@ -67,7 +67,7 @@ function Projects() {
 
             <div className="bigpic">
               <a href="https://panicor.github.io/teamProfileGenerator/">
-                <img src={employeepic} alt="work picture4" />
+                <img className="image" src={employeepic} alt="work picture4" />
               </a>
               <div className="text">Employee Tracker</div>
               <p className="undertext">A command-line application that tracks employee information using Inquirer and a database connention. Content Management Systems like this are very useful.</p>

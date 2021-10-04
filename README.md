@@ -13,7 +13,7 @@
 - [Questions](#questions)
 
   ## Description
-  This is a portfilio built in React
+  This is a portfolio built in React. Reactstrap was utilized in this project as well. The portfolio highlights a couple of stellar projects as well as displaying my contact infomation to the user. 
   ## Usage Information
   None
   ## Installation Instructions
