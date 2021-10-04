@@ -25,7 +25,7 @@ const Header = (props) => {
 
         <div className="badgr-badge">
           <a href="https://api.badgr.io/public/assertions/aJJ2ROJtRMGXMXdD1kVf4g">
-            <img className="badgeimg" alt="badgepic" src={ucfbadge} />
+            <img className="badgeimg" target="_blank" alt="badgepic" src={ucfbadge} />
           </a>
         </div>
 
