@@ -24,8 +24,8 @@ const Header = (props) => {
         </NavbarBrand>
 
         <div className="badgr-badge">
-          <a href="https://api.badgr.io/public/assertions/aJJ2ROJtRMGXMXdD1kVf4g">
-            <img className="badgeimg" target="_blank" alt="badgepic" src={ucfbadge} />
+          <a href="https://api.badgr.io/public/assertions/aJJ2ROJtRMGXMXdD1kVf4g" target="_blank" rel="noreferrer">
+            <img className="badgeimg" alt="badgepic" src={ucfbadge} />
           </a>
         </div>
 
