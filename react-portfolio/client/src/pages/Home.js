@@ -43,7 +43,7 @@ function Projects() {
               </div>
               <div className="textpart">
               <div className="text">Weather Dashboard</div>
-              <p className="undertext">Third-party weather APIs were used to fetch weather data and display it.Use of multiple dynamic URLs to fetch the coordinates of the input cities was needed as well.</p>
+              <p className="undertext">Third-party weather API OpenWeather One Call was used to fetch weather data and display it.Use of multiple dynamic URLs to fetch the coordinates of the input cities was needed as well.</p>
             </div>
             </div>
 
