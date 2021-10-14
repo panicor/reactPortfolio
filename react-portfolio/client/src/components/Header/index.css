@@ -20,14 +20,13 @@
 .nav-links {
     margin-right: 20px;
     text-decoration: underline !important;
-    color: fdfcdc;
+    color: #fdfcdc;
     font-size: 1.1rem !important;
 }
 
 .nav-links:hover {
     background-color: #fed9b7;
     color: black;
-    padding: 2px 5px 2px 5px;
     border-radius: 5px;
 }
 
@@ -37,6 +36,11 @@
     padding-bottom: 0px;
     padding-top: 0px;
 }
+
+
+.badgeimg:hover {
+    transform: scale(1.1);
+  }
 
 @media only screen and (max-width: 845px) {
     .nav-link-group {

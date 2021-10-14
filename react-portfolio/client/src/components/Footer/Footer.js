@@ -22,11 +22,11 @@ const Footer = () => {
           <ul className="links text">
             <li>
               {" "}
-              <a href="tel:727-459-8014">(727) 459-8014</a>{" "}
+              <a className="footerlink" href="tel:727-459-8014">(727) 459-8014</a>{" "}
             </li>
             <li>
               {" "}
-              <a
+              <a className="footerlink"
                 href="mailto:rachelapanico@gmail.com"
                 target="_blank"
                 rel="noreferrer"
@@ -36,7 +36,7 @@ const Footer = () => {
             </li>
             <li>
               {" "}
-              <a
+              <a className="footerlink"
                 href="https://www.linkedin.com/in/rachelpanico/"
                 target="_blank"
                 rel="noreferrer"
