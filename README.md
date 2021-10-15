@@ -32,4 +32,7 @@
   [Deployed portfolio](https://panicor.github.io/reactPortfolio/)
 
   rachelapanico@gmail.com
+  
+  ![portfoliopic](https://user-images.githubusercontent.com/85498209/137379108-ef8ded1f-1f6f-4e45-bf19-65399c235738.PNG)
+
 
