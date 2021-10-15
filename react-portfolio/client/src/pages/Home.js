@@ -3,9 +3,8 @@ import "./Home.css";
 import weatherpic from "../assets/weatherpic.png";
 import notepic from "../assets/notetaker.png";
 import parkspic from "../assets/parksandpages.png";
-import employeepic from "../assets/employeepic.png";
 import profilepic from "../assets/profilepic.jpg";
-import employeetrackervid from "../assets/employeetrackervid.webm"
+
 
 function Projects() {
   return (
@@ -76,8 +75,7 @@ function Projects() {
             </div>
 
             <div className="bigpic">
-              <iframe className="image" src="https://drive.google.com/file/d/1EEbuQIO29Aeqf429YQne70gaexWI-NHM/preview">
-              </iframe>
+              <iframe title="video" className="image" src="https://drive.google.com/file/d/1EEbuQIO29Aeqf429YQne70gaexWI-NHM/preview" />
               <div className="text">Employee Tracker</div>
               <p className="undertext">A command-line application that tracks employee information using Inquirer and a database connention. Content Management Systems like this are very useful.</p>
               <p className="undertext underlink">
